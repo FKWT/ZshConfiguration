@@ -7,4 +7,3 @@ RUNZSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 wget -O ~/.p10k.zsh https://raw.githubusercontent.com/FKWT/ZshConfiguration/refs/heads/master/p10k.server
 wget -O ~/.zshrc https://raw.githubusercontent.com/FKWT/ZshConfiguration/refs/heads/master/zshrc.server
-sudo chsh -s "$(which zsh)" "$USER"
